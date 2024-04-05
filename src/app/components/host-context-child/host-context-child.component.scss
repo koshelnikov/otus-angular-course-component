@@ -1,0 +1,13 @@
+:host {
+  p {
+    color: blue;
+  }
+}
+
+:host-context(.active) {
+  p {
+    color: red;
+  }
+}
+
+

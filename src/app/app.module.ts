@@ -10,6 +10,8 @@ import {
 
 import * as AppRootComponents from './components'
 import {UsersModule} from "./users/users.module";
+import { HostContextParentComponent } from './components/host-context-parent/host-context-parent.component';
+import { HostContextChildComponent } from './components/host-context-child/host-context-child.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {UsersModule} from "./users/users.module";
     CatComponent,
     BirdComponent,
     AppRootComponents.ViewEncapsulationShadowComponent,
-    AppRootComponents.ViewEncapsulationNoneComponent
+    AppRootComponents.ViewEncapsulationNoneComponent,
+    HostContextParentComponent,
+    HostContextChildComponent
   ],
   imports: [
     BrowserModule,
